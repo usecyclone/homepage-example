@@ -1,0 +1,14 @@
+{
+  "autorun": true,
+  "autokill": true,
+  "terminals": [
+    {
+      "name": "Welcome",
+      "description": "Run readme.js",
+      "focus": true,
+      "execute": true,
+      "recycle": true,
+      "command": "node readme.js"
+    }
+  ]
+}
