@@ -1,4 +1,4 @@
-export const WelcomeToCyclone = () => {
+function WelcomeToCyclone() {
   // Welcome! This is a live code editor that lets you write and run javascript code.
 
   console.log("Cyclone is an instant coding playground for your docs!");
@@ -21,4 +21,6 @@ export const WelcomeToCyclone = () => {
 
   console.log("Get started with Cyclone today!");
   console.log("https://accounts.usecyclone.dev/sign-up");
-};
+}
+
+WelcomeToCyclone();
