@@ -1,3 +1,5 @@
+const openCycloneAfterPrompt = require("./utils.js");
+
 function WelcomeToCyclone() {
   // Welcome! This is a live code editor that lets you write and run javascript code.
 
@@ -20,7 +22,7 @@ function WelcomeToCyclone() {
   });
 
   console.log("Get started with Cyclone today!");
-  console.log("https://accounts.usecyclone.dev/sign-up");
+  openCycloneAfterPrompt();
 }
 
 WelcomeToCyclone();
