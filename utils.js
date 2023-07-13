@@ -18,7 +18,7 @@ async function openCycloneAfterPrompt() {
   var promptInput = await readLineAsync(
     "Wanna see a preview site with Cyclone? >[y/n] "
   );
-  open("https://accounts.usecyclone.dev/sign-up");
+  open("https://dashboard.usecyclone.dev/preview");
   rl.close();
 }
 
